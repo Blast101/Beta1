@@ -1,0 +1,25 @@
+.container
+{
+    /* align-items: center; */
+    text-align: center;
+}
+.fg
+{
+    margin: 10px;
+}
+
+input
+{
+    height: 30px;
+    width: 200px;
+}
+
+.alert
+{
+    background-color: rgba(126, 167, 66, 0.854);
+}
+
+.error
+{
+    background-color: red;
+}

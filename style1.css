@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
+
+.login{
+    width: 99vw;
+    border: 1px solid black;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+/* .show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.not_active {
+    text-decoration: none;
+} */
+
+.btns{
+    
+    border: 1px solid black;
+    display: flex;
+    margin: 5px 5px;
+    margin-left: 10px;
+    flex-direction: column;
+    height: 95vh;
+    width: 10vw;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+
+.tab-img {
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.tab-img.active {
+    border: 3px solid rgb(255, 208, 0);
+    border-radius: 25px;
+
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+#tab1 ,#tab2, #tab3,#tab3,#tab4,#tab5
+{
+    height: 95vh;
+    width: 70vw;
+    border:1px solid black;
+    margin:5px 5px;
+     flex-grow: 2;
+     align-self: center;
+    min-width: 400px;
+    border-radius: 5px;
+    background-color: aliceblue;
+
+}
+
+#tab3{
+    overflow-y: scroll;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* border-radius: 5px; */
+    width: 72vw;
+    /* border: 2px solid black; */
+    min-width: 400px;
+    /* border: 2px solid black; */
+}
+
+.btn{
+    box-shadow: none;
+}
+.sp 
+{
+    width: 10vw;
+    border:1px solid black;
+    margin:5px 5px;
+    flex-grow: 0; 
+    align-items: center;
+    border-radius: 5px;
+    min-width: 200px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+ .tabs
+{
+    /* border:2px solid black; */
+    width: 150px;
+    height: 150px;
+    margin:5px 5px;
+    align-self: center;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.sb2
+{
+    border:1px solid black;
+    margin: 2px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.stabs
+{
+    border:1px solid black;
+    margin:5px 5px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.b {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        margin: 5px 5px;
+        height: 200px;
+        width: 340px;
+        border-radius: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
